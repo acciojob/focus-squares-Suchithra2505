@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function changeColor(event) {
     squares.forEach(square => {
-      square.style.backgroundColor = rgb(11, 78, 55); // Change color to Coffee
+      square.style.backgroundColor = rgb(111, 78, 55); // Change color to Coffee
     });
 
     const currentSquare = event.target;
