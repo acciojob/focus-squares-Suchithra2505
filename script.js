@@ -4,11 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   function changeColor(event) {
     squares.forEach(square => {
-      square.style.backgroundColor = '#6F4E37'; // Change color to Coffee
+      square.style.backgroundColor = rgb(11, 78, 55); // Change color to Coffee
     });
 
     const currentSquare = event.target;
-    currentSquare.style.backgroundColor = '#E6E6FA'; // Keep the current square lavender
+    currentSquare.style.backgroundColor = rgb(230, 230, 250); // Keep the current square lavender
   }
 
   squares.forEach(square => {
